@@ -47,7 +47,10 @@
 		}
 
 		section {
-			width: 890px;
+			/* below makes a fixed-width element */
+			/* width: 890px; */
+			/* Let's make a relative-width element */
+			width: 80%;
 			margin: 20px auto;
 		}
 
@@ -55,6 +58,7 @@
 			font-size: 4em;
 			font-family: 'Dancing Script', cursive;
 			color: #333333;
+			line-height: 1.1em;
 		}
 
 		h2 {
@@ -142,7 +146,7 @@
 	<section>
 
 		<!--The title shown on the page as a Heading 1 element-->
-		<h1>Red River Gorge</h1>
+		<h1>Welcome to the Red River Gorge</h1>
 
 		<!-- 
 			The div tag is called 'map' and creates a map here by JavaScript when the page loads in a browser. 
@@ -166,7 +170,7 @@
 			Let's use a JPEG file.
 		-->
 		<p>
-			Use images:
+			<h3>View of Auxier Ridge from Double Arch</h3>
 			<img src="images/auxier_ridge.jpg" class="img-width">
 		</p>
 		<!-- 
@@ -175,6 +179,8 @@
 		<p>
 			and
 			<a href="https://uky-gis.github.io">links</a> to other resources to inform your visitor.
+			<br>
+			Photograph by TastyFreeze, Fall 2018
 		</p>
 
 		<!-- Horizontal rule element doesn't need a closing tag -->
